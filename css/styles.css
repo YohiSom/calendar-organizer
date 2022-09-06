@@ -1,0 +1,82 @@
+.left {
+  float: left;
+}
+
+body {
+  padding: 0;
+}
+
+#wrapper {
+  width: 800px;
+  margin: 70px auto;
+}
+
+#calander {
+  width: 600px;
+  height: 722px;
+  padding: 0 6px;
+  margin: 0 auto;
+  background: #ececec;
+  position: relative;
+  overflow: hidden;
+}
+
+.event {
+  background: #fff;
+  color: #4b6ea8;
+  border: 1px solid #ccc;
+  border-left: 4px solid #4b6ea8;
+  position: absolute;
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#times {
+  height: 720px;
+  margin-right: 10px;
+  font-family: arial;
+  margin-top: -3px;
+}
+
+#times .slot {
+  height: 30px;
+  font-weight: bold;
+  text-align: right;
+  line-height: 0;
+}
+
+#times .slot span {
+  font-size: 12px;
+  color: #999;
+  padding: 2px 0;
+}
+
+.schedules {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-left: 6px;
+  margin-top: 2px;
+  overflow: hidden;
+}
+
+.div-flex {
+  display: flex;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.div-backgrn {
+  width: 5px;
+  background-color: #4b6ea8;
+}
+
+.div-text {
+  color: #4b6ea8;
+  font-size: medium;
+}
+
+.div-location {
+  color: black;
+}
